@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  background: lightblue;
+  grid-column: 1 / -1;
+}
+footer {
+  background: lightblue;
+  grid-column: 1 / -1;
+}
+aside {
+  background: lightgray;
+}
+main {
+  background: white;
+}

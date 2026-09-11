@@ -1,0 +1,29 @@
+/* Ausgangszustand */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh; /* full page */
+}
+
+header {
+  grid-column: 1 / -1;
+  background: lightblue;
+}
+footer {
+  grid-column: 1 / -1;
+  background: lightblue;
+}
+aside {
+  background: lightgray;
+}
+main {
+  background: white;
+}
